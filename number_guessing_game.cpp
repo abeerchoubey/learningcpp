@@ -8,7 +8,7 @@ int main() {
     int n = 0;
     srand(time(0));
     n = rand() % 20 + 1; // Random number between 1 and 20
-    cout << "Gues a number between 1 and 20" << endl;
+    cout << "Guess a number between 1 and 20" << endl;
     int guess = 0;
     cin >> guess;
     int count = 1;
