@@ -1,20 +1,16 @@
-// Hypotenuse calculator
-
 #include <iostream>
 #include <cmath>
-int main() {
-    using namespace std;
+
+using namespace std;
+
+int main () {
     double x,y;
-    cout << "This is a hypotenuse Calculator \nPut in the base and height values of a triangle\n Base>>";
+    cout << "Enter base of the triangle: ";
     cin >> x;
-    cout << "\n Height";
+    cout << "Enter height of the triangle: ";
     cin >> y;
-    // (x*x+y*y) = z*z
-    // x= base, y= Height, z = hypotenuse
-    double temp, z;
-    temp = (x*x + y*y);
-    z = sqrt(temp);
-    cout << "\n"<<  z << endl;
+    double z;
+    z = sqrt(pow(x,2) + pow(y,2));
+    cout << "The hypotenuse is: " << z << endl;
     return 0;
 }
-
