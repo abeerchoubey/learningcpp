@@ -4,13 +4,13 @@ using namespace std;
 
 int main() {
     //ATM SIMULATOR BY ABEER
-    int bal=0 , i=1;
+    int bal=0;
     cout << "░▄▄▄▄░" << endl;
     cout << "▀▀▄██►" << endl;
     cout << "▀▀███►" << endl;
     cout << "░▀███►░█►" << endl;
     cout << "▒▄████▀▀" << endl;
-    while (i==1) {
+    while (true) {
         cout << "\n\nWhat would you like to do? enter ONLY NUMBER corresponding to the action!!\n 1 --> Withdraw \n 2 --> Deposit\n\n >>>";
         int action;
         cin >> action;
